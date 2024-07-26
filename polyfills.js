@@ -1,4 +1,4 @@
-var constants = require('fs').constants
+var constants = require('node:fs').constants
 
 var origCwd = process.cwd
 var cwd = null
